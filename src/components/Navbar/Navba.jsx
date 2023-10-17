@@ -71,7 +71,7 @@ import {
     }, []);
   return (
     <div>
-       <Navbar className="fixed z-50  md:top-2 left-1/2 transform -translate-x-1/2 max-w-screen-xl px-6 py-3 bg-white bg-opacity-70 backdrop-blur-md">
+       <Navbar className="fixed z-50  md:top-2 left-1/2 transform -translate-x-1/2 max-w-screen-xl px-6 py-1.5 md:py-3 rounded-none md:rounded-2xl   bg-white bg-opacity-70 backdrop-blur-md">
       <div className="flex items-center justify-between text-blue-gray-900">
       <div className="flex items-center gap-4">
     <Menu>  
@@ -80,7 +80,7 @@ import {
           <Avatar src="https://st.depositphotos.com/1008402/58359/i/450/depositphotos_583598628-stock-illustration-illustration-bearded-black-man-cartoon.jpg"
          alt="avatar" 
          variant="circular"
-         className="border shadow-xl shadow-blue-900/20 ring-4 ring-blue-500/30"/>
+         className="border shadow-xl scale-75 md:scale-100 shadow-blue-900/20 ring-4 ring-blue-500/30"/>
           </button>
       </MenuHandler>
       <MenuList>
