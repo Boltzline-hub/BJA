@@ -18,10 +18,8 @@ const Hero = () => {
             Your email
           </Typography>
           <div className='flex flex-col sm:flex-row gap-3'>
-            <div className='w-full sm:w-72'>
-              <Input label='Email' />
-            </div>
-            <Button>Connect</Button>
+
+            <Button>Let's Connect</Button>
           </div>
           <Typography className='text-blue-gray-600 mt-3 '>
             Read my <span className='underline text-blue-300'><a href='#'>Terms and Conditions</a></span>
