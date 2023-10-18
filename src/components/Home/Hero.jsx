@@ -5,7 +5,7 @@ import { Input, Button, Typography } from "@material-tailwind/react";
 const Hero = () => {
   return (
     <div className="bg-[url(https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?w=740&t=st=1697129168~exp=1697129768~hmac=3bd2cea9a05e37a66eea4dd580ac36463448a10292c983ba6969b180b91bd8cc)] bg-no-repeat bg-center bg-cover">
-<div className='flex flex-col-reverse items-center md:mx-20  sm:flex-row h-screen  '>
+<div className='flex flex-col-reverse items-center md:mx-20 md:flex-row  sm:flex-ro h-full py-24 pb-20  md:py-40  '>
       <div className='w-full sm:w-1/2 p-5'>
         <Typography variant='h2' className='text-center sm:text-left hidden md:block'>
           Welcome to my Web Development and 3D CAD Design Portfolio!
