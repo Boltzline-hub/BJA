@@ -14,9 +14,7 @@ const Hero = () => {
           I'm Bopda Joel, a passionate web developer and 3D CAD designer based in Cameroon. Here, you'll get a glimpse of my journey in the world of web development and 3D, where creativity meets functionality.
         </Typography>
         <div className='mt-6'>
-          <Typography variant='h6' className='mb-2'>
-            Your email
-          </Typography>
+
           <div className='flex flex-col sm:flex-row gap-3'>
 
             <Button>Let's Connect</Button>
