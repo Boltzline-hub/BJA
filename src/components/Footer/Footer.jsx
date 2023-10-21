@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      <footer className="p-4 bg-blue-200">
+      <footer className="p-4 bg-[url(https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?w=740&t=st=1697129168~exp=1697129768~hmac=3bd2cea9a05e37a66eea4dd580ac36463448a10292c983ba6969b180b91bd8cc)] bg-no-repeat bg-center bg-cover">
     <div className="mx-auto max-w-screen-xl">
         <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
