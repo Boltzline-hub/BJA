@@ -15,7 +15,7 @@ const Testimonials = () => {
           color="blue"
           size="lg"
           onClick={handlePrev}
-          className="!absolute top-2/4 left-4 bg-blue-100 -translate-y-2/4"
+          className="!absolute bottom-0  bg-blue-100 "
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ const Testimonials = () => {
           color="blue"
           size="lg" 
           onClick={handleNext}
-          className="!absolute top-2/4 !right-4 bg-blue-100 -translate-y-2/4"
+          className="!absolute bottom-0 right-0  bg-blue-100"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
