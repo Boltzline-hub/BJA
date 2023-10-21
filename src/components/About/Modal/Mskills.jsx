@@ -3,6 +3,7 @@ import {
     Button,
     Dialog,
     DialogBody,
+    Typography,
   } from "@material-tailwind/react";
 
 const Mskills = () => {
@@ -16,10 +17,13 @@ const Mskills = () => {
         </Button>
       <Dialog open={open} handler={handleOpen}>
         <DialogBody>
-          The key to more success is to have a lot of pillows. Put it this way,
-          it took me twenty five years to get these plants, twenty five years of
-          blood sweat and tears, and I&apos;m never giving up, I&apos;m just
-          getting started. I&apos;m up to something. Fan luv.
+          <Typography variant='h3' className='text-center text-black'>Web Development Tech</Typography>
+          <div>
+            <Typography> Through the lens of popular web development tech,  I turn dreams into code and ideas into interactive websites. It's a world where love for design and passion for technology converge, creating a perfect synergy of aesthetics and functionality.</Typography>
+            <div>
+              
+            </div>
+          </div>
         </DialogBody>
       </Dialog>
     </div>

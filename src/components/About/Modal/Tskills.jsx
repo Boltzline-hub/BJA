@@ -17,72 +17,64 @@ const Tskills = () => {
            View Skills 
         </Button>
       <Dialog open={open} handler={handleOpen} className='max-h-4/5'>
-        <DialogBody className='rounded-lg shadow-lg shadow-yellow-100  bg-[url(https://img.freepik.com/free-vector/abstract-realistic-technology-particle-background_23-2148413923.jpg?t=st=1697553056~exp=1697553656~hmac=76aa431f25083d827f2a5e52b0b8b083a12611e7cbfdb59d3f5eededad34ab61)] bg-cover '>
+        <DialogBody className='bg-[url(https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?w=740&t=st=1697129168~exp=1697129768~hmac=3bd2cea9a05e37a66eea4dd580ac36463448a10292c983ba6969b180b91bd8cc)] bg-cover rounded-lg bg-no-repeat'>
           <div>
-            <Typography variant='h4' className='text-center'>
-                My Technical Skills
-            </Typography>
-            <div className='grid md:grid-cols-2 gap-4'>
-              <div className="w-full">
-                <div className="mb-2 flex items-center justify-between gap-2">
-                  <div>
-                    <svg className='h-12 w-12' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" h-5 w-5 viewBox="0 0 48 48">
-                      <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
-                    </svg>
-                  </div>
-                  <div className="flex items-center justify-between gap-4 w-full">
-                  <Typography color="blue" variant="h6">HTML</Typography>
-                  <Typography color="blue" variant="h6">50% </Typography>                    
-                  </div>
-                </div>
-                  <Progress value={50} />
-              </div>
-
-              <div className="w-full">
-                <div className="mb-2 flex items-center justify-between gap-2">
-                  <div>
-                    <svg className='h-12 w-12' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" h-5 w-5 viewBox="0 0 48 48">
-                      <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
-                    </svg>
-                  </div>
-                  <div className="flex items-center justify-between gap-4 w-full">
-                  <Typography color="blue" variant="h6">HTML</Typography>
-                  <Typography color="blue" variant="h6">50% </Typography>                    
-                  </div>
-                </div>
-                  <Progress value={50} />
-              </div>
-
-              <div className="w-full">
-                <div className="mb-2 flex items-center justify-between gap-2">
-                  <div>
-                    <svg className='h-12 w-12' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" h-5 w-5 viewBox="0 0 48 48">
-                      <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
-                    </svg>
-                  </div>
-                  <div className="flex items-center justify-between gap-4 w-full">
-                  <Typography color="blue" variant="h6">HTML</Typography>
-                  <Typography color="blue" variant="h6">50% </Typography>                    
-                  </div>
-                </div>
-                  <Progress value={50} />
-              </div>
-
-              <div className="w-full">
-                <div className="mb-2 flex items-center justify-between gap-2">
-                  <div>
-                    <svg className='h-12 w-12' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" h-5 w-5 viewBox="0 0 48 48">
-                      <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
-                    </svg>
-                  </div>
-                  <div className="flex items-center justify-between gap-4 w-full">
-                  <Typography color="blue" variant="h6">HTML</Typography>
-                  <Typography color="blue" variant="h6">50% </Typography>                    
-                  </div>
-                </div>
-                  <Progress value={50} />
-              </div>
+            <Typography variant='h3' color='black' className='text-center'>My Skills</Typography>
+          
+          <div className='flex flex-col justify-center gap-4'>
+            <Typography color="blue-gray" variant="h4" className='mb-2'>Frontend</Typography>
+          <div className="w-full">
+            <div className="mb-2 flex items-center justify-between gap-4">
+              <Typography color="blue-gray" variant="h6">HTML5</Typography>
+              <Typography color="blue-gray" variant="h6">80%</Typography>
             </div>
+            <Progress value={80} color='blue' />
+          </div>
+
+          <div className="w-full">
+            <div className="mb-2 flex items-center justify-between gap-4">
+              <Typography color="blue-gray" variant="h6">Tailwindcss / CSS3</Typography>
+              <Typography color="blue-gray" variant="h6">75%</Typography>
+            </div>
+            <Progress value={75} color='blue' />
+          </div>
+
+          <div className="w-full">
+            <div className="mb-2 flex items-center justify-between gap-4">
+              <Typography color="blue-gray" variant="h6">Javascript</Typography>
+              <Typography color="blue-gray" variant="h6">60%</Typography>
+            </div>
+            <Progress value={60} color='blue' />
+          </div>
+          
+          <div className="w-full">
+            <div className="mb-2 flex items-center justify-between gap-4">
+              <Typography color="blue-gray" variant="h6">Reactjs</Typography>
+              <Typography color="blue-gray" variant="h6">70%</Typography>
+            </div>
+            <Progress value={70} color='blue' />
+          </div>
+          </div>
+
+          <div className='flex flex-col justify-center gap-4 my-5'>
+            <Typography color="blue-gray" variant="h4" className='mb-2'>Backend</Typography>
+            <div className="w-full">
+            <div className="mb-2 flex items-center justify-between gap-4">
+              <Typography color="blue-gray" variant="h6">Sanity</Typography>
+              <Typography color="blue-gray" variant="h6">40%</Typography>
+            </div>
+            <Progress value={40} color='blue' />
+          </div>
+
+          <div className="w-full">
+            <div className="mb-2 flex items-center justify-between gap-4">
+              <Typography color="blue-gray" variant="h6">Php</Typography>
+              <Typography color="blue-gray" variant="h6">30%</Typography>
+            </div>
+            <Progress value={30} color='blue' />
+          </div>
+          </div>
+            
           </div>
         </DialogBody>
       </Dialog>
