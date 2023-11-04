@@ -4,7 +4,7 @@ import Mresume from './Mresume';
 
 const About = () => {
   return (
-    <div className='my-10'>
+    <div className=''>
       <Skills/>
       <Mresume/> 
     </div>
