@@ -28,7 +28,7 @@ const Mresume = () => {
 
   return (
     <div>
-    <div className='my-14 flex justify-center'>
+    <div className='my-36 flex justify-center'>
       <div className='container flex flex-col md:flex-row items-center md:space-x-14 mx-5 rounded-2xl'>
         <div className='h-auto sm:w-2/4 gap-2'>
           <Typography variant='h3' className='pb-2 text-center md:text-left'>My Resume</Typography>
