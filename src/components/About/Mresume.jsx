@@ -28,7 +28,7 @@ const Mresume = () => {
 
   return (
     <div>
-    <div className='my-36 flex justify-center'>
+    <div className='my-14 flex justify-center'>
       <div className='container flex flex-col md:flex-row items-center md:space-x-14 mx-5 rounded-2xl'>
         <div className='h-auto sm:w-2/4 gap-2'>
           <Typography variant='h3' className='pb-2 text-center md:text-left'>My Resume</Typography>
@@ -50,11 +50,11 @@ const Mresume = () => {
                         </svg>
               </div>
               <AccordionHeader onClick={() => handleOpen(1)}>
-                <Typography variant='h5'>Bachelor of Science in Computer Science</Typography>
+                <Typography variant='h5'>HND in Software Engineering </Typography>
               </AccordionHeader>
             </div>
             <AccordionBody>
-              Your content here for item 1
+              I have obtained a Higher National Diplomer ( HND ) in Software engineering at JIMIT Highier institute of Technology.
             </AccordionBody>
           </Accordion>
 

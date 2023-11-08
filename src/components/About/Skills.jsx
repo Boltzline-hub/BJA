@@ -7,7 +7,7 @@ import Dskills from './Modal/Dskills';
 const Skills = () => {
   return (
     <div>
-<section className=" bg-white dark:bg-gray-900 py-32">
+<section className=" bg-white dark:bg-gray-900 py-10 ">
   <div className=" text-center ">
       <div className="  mb-8 lg:mb-16  flex-col justify-center">
             <Typography variant='h6'>SKILLS</Typography>
