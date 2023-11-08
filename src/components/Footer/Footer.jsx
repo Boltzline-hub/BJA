@@ -14,12 +14,15 @@ const Footer = () => {
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                 <div>
                     <h2 className="mb-6 text-sm font-semibold text-black uppercase ">Resources</h2>
-                    <ul className="text-black ">
-                        <li className="mb-4">
-                            <a href="https://flowbite.com" className="hover:underline">Flowbite</a>
+                    <ul className="text-black space-y-3 ">
+                        <li>
+                            <a href="https://openai.com" className="hover:underline">ChatGPT</a>
                         </li>
                         <li>
                             <a href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</a>
+                        </li>
+                        <li>
+                            <a href="https://reactjsexample.com" className="hover:underline">React.js Example</a>
                         </li>
                     </ul>
                 </div>
@@ -27,10 +30,10 @@ const Footer = () => {
                     <h2 className="mb-6 text-sm font-semibold text-black uppercase dark:text-black">Follow us</h2>
                     <ul className="text-black">
                         <li className="mb-4">
-                            <a href="#" className="hover:underline ">Github</a>
+                            <a href="https://github.com/Boltzline-hub" className="hover:underline ">Github</a>
                         </li>
                         <li>
-                            <a href="#" className="hover:underline">Discord</a>
+                            <a href="#" className="hover:underline">Facebook</a>
                         </li>
                     </ul>
                 </div>
